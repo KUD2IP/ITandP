@@ -1,6 +1,10 @@
+package labs.lab_1;
+
 public class Palindrome {
     public static void main(String[] args) {
-        System.out.println(isPalindrome("dqd alla dqd"));
+        for (String s : args) {
+            System.out.println(s + " -> " + isPalindrome(s));
+        }
     }
 
     public static String reverse(String s) {
@@ -9,6 +13,6 @@ public class Palindrome {
 
 
     public static boolean isPalindrome(String s) {
-        return s.equals(reverse(s));
+        return s.equalsIgnoreCase(reverse(s));
     }
 }

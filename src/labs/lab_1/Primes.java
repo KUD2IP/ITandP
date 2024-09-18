@@ -1,3 +1,5 @@
+package labs.lab_1;
+
 public class Primes {
     public static void main(String[] args) {
 

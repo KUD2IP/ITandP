@@ -1,3 +1,5 @@
+package tasks.task_1;
+
 import java.util.Random;
 
 public class Main {

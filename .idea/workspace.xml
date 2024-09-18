@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ITandP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Primes.java" afterDir="false" />
+    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="lab 1 and 10 tasks">
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/Gadgets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Asus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Xiaomi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/watch/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/watch/SmartWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/task_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/task_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_1/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Primes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_1/Primes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,25 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KUD2IP&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KUD2IP/ITandP.git&quot;,
+    &quot;accountId&quot;: &quot;47ea43e0-c5fb-4a79-9edd-707f52fcad9a&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -47,14 +71,17 @@
     "Application.Primes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/akkau/IdeaProjects/ITandP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,11 +102,39 @@
       <option name="presentableId" value="Default" />
       <updated>1725789068326</updated>
       <workItem from="1725789069401" duration="8142000" />
-      <workItem from="1725811541291" duration="2244000" />
+      <workItem from="1725811541291" duration="2580000" />
+      <workItem from="1725814154292" duration="1676000" />
+      <workItem from="1725828955760" duration="3000" />
+      <workItem from="1725876674594" duration="2729000" />
+      <workItem from="1725884293188" duration="2590000" />
+      <workItem from="1726078852168" duration="965000" />
+      <workItem from="1726497585306" duration="1591000" />
+      <workItem from="1726590447102" duration="2561000" />
+      <workItem from="1726593611008" duration="3368000" />
+      <workItem from="1726597228487" duration="6476000" />
+      <workItem from="1726647676286" duration="2011000" />
+      <workItem from="1726653910441" duration="4936000" />
     </task>
+    <task id="LOCAL-00001" summary="lab 1 and 10 tasks">
+      <option name="closed" value="true" />
+      <created>1725814043928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725814043928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab 1 and 10 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 1 and 10 tasks" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
