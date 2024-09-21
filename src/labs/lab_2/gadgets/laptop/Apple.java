@@ -25,7 +25,7 @@ public class Apple extends Laptop {
         powerAppleLaptop.start();
         for (int i = super.getPower(); i <= 100; i++) {
             try {
-                if(super.isOn()) {
+                if(isOn()) {
                     Thread.sleep(800);
                 }else{
                     Thread.sleep(400);
@@ -34,7 +34,7 @@ public class Apple extends Laptop {
                 throw new RuntimeException(e);
             }
             System.out.println(i + "%");
-            super.setPower(i);
+            setPower(i);
         }
         System.out.println(model + " is charged!");
     }
@@ -73,9 +73,9 @@ public class Apple extends Laptop {
         return "Apple{" +
                 "model='" + model + '\'' +
                 ", price=" + price + " rub" +
-                ", power=" + super.getPower() +
-                ", operatingSystem='" + super.getOperatingSystem() + '\'' +
-                ", on=" + super.isOn() +
+                ", power=" + getPower() +
+                ", operatingSystem='" + getOperatingSystem() + '\'' +
+                ", on=" + isOn() +
                 '}';
     }
 }

@@ -3,26 +3,24 @@ package labs.lab_2.gadgets.smartphone;
 import labs.lab_2.gadgets.Gadgets;
 
 public abstract class Smartphone extends Gadgets {
-    private int power;
-    private boolean on = false;
+    private StringBuilder apps;
 
     public Smartphone() {
     }
 
     public Smartphone(int power) {
-        this.power = power;
-
+        super(power);
     }
 
     @Override
     public void on() {
-        this.on = true;
+        setOn(true);
         System.out.println("Smartphone is on!");
     }
 
     @Override
     public void off() {
-        this.on = false;
+        setOn(false);
         System.out.println("Smartphone is off!");
     }
 
@@ -31,9 +29,9 @@ public abstract class Smartphone extends Gadgets {
         System.out.println("Smartphone is charging...");
         Thread powerSmartphone = new Thread();
         powerSmartphone.start();
-        for (int i = this.power; i <= 100; i++) {
+        for (int i = getPower(); i <= 100; i++) {
             try {
-                if(on) {
+                if(isOn()) {
                     Thread.sleep(600);
                 }else{
                     Thread.sleep(300);
@@ -42,7 +40,7 @@ public abstract class Smartphone extends Gadgets {
                 throw new RuntimeException(e);
             }
             System.out.println(i + "%");
-            power = i;
+            setPower(i);
         }
         System.out.println("Smartphone is charged!");
     }
@@ -51,19 +49,11 @@ public abstract class Smartphone extends Gadgets {
         System.out.println("The app cannot be installed without the phone model!");
     }
 
-    public int getPower() {
-        return power;
+    public StringBuilder getApps() {
+        return apps;
     }
 
-    public void setPower(int power) {
-        this.power = power;
-    }
-
-    public boolean isOn() {
-        return on;
-    }
-
-    public void setOn(boolean on) {
-        this.on = on;
+    public void setApps(StringBuilder apps) {
+        this.apps = apps;
     }
 }

@@ -12,23 +12,27 @@ public class Main {
         apple.charge();
         apple.on();
         apple.downloadApp("Vk", "Tg", "Instagram");
+        apple.off();
         System.out.println(apple.toString());
 
-        Xiaomi xiaomi = new Xiaomi(89, "Xiaomi 12", "White", 50_000);
-        xiaomi.charge();
-        xiaomi.on();
-        xiaomi.downloadApp("Vk", "Telegram", "Instagram");
-        System.out.println(xiaomi.toString());
+        labs.lab_2.gadgets.laptop.Apple appleLaptop = new labs.lab_2.gadgets.laptop.Apple(95, "MacBook Pro", 200_000);
+        appleLaptop.charge();
+        appleLaptop.on();
+        appleLaptop.downloadOperatingSystem("MacOS");
+        appleLaptop.off();
+        System.out.println(appleLaptop.toString());
 
         Asus asus = new Asus(89, "TUF F15", 75_000);
         asus.charge();
         asus.on();
         asus.downloadOperatingSystem("Windows");
+        asus.off();
         System.out.println(asus.toString());
 
         Samsung samsung = new Samsung(89, 50_000, "Galaxy watch 5");
         samsung.charge();
         samsung.on();
+        samsung.off();
         System.out.println(samsung.toString());
     }
 }

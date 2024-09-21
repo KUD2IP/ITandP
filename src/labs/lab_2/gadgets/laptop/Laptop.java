@@ -3,26 +3,24 @@ package labs.lab_2.gadgets.laptop;
 import labs.lab_2.gadgets.Gadgets;
 
 public class Laptop extends Gadgets {
-    private int power;
-    private boolean on = false;
     private String operatingSystem = null;
 
     public Laptop() {
     }
 
     public Laptop(int power) {
-        this.power = power;
+        super(power);
     }
 
     @Override
     public void on() {
-        on = true;
+        setOn(true);
         System.out.println("Laptop is on!");
     }
 
     @Override
     public void off() {
-        on = false;
+        setOn(false);
         System.out.println("Laptop is off!");
     }
 
@@ -31,9 +29,9 @@ public class Laptop extends Gadgets {
         System.out.println("Laptop is charging...");
         Thread powerLaptop = new Thread();
         powerLaptop.start();
-        for (int i = this.power; i <= 100; i++) {
+        for (int i = getPower(); i <= 100; i++) {
             try {
-                if(on) {
+                if(isOn()) {
                     Thread.sleep(1000);
                 }else{
                     Thread.sleep(500);
@@ -42,7 +40,7 @@ public class Laptop extends Gadgets {
                 throw new RuntimeException(e);
             }
             System.out.println(i + "%");
-            power = i;
+            setPower(i);
         }
         System.out.println("Laptop is charged!");
     }
@@ -57,22 +55,6 @@ public class Laptop extends Gadgets {
 
     public void keyboard(String language1, String language2) {
         System.out.println("The language of the keyboard is " + language1 + " and " + language2 + "!");
-    }
-
-    public int getPower() {
-        return power;
-    }
-
-    public void setPower(int power) {
-        this.power = power;
-    }
-
-    public boolean isOn() {
-        return on;
-    }
-
-    public void setOn(boolean on) {
-        this.on = on;
     }
 
     public String getOperatingSystem() {

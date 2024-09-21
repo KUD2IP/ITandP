@@ -4,16 +4,8 @@ public class Xiaomi extends Smartphone {
     private String model;
     private String color;
     private int price;
-    private StringBuilder apps;
 
-    public Xiaomi(int power) {
-        super(power);
-    }
-
-    public Xiaomi(String model, String color, int price) {
-        this.model = model;
-        this.color = color;
-        this.price = price;
+    public Xiaomi() {
     }
 
     public Xiaomi(int power, String model, String color, int price) {
@@ -47,10 +39,11 @@ public class Xiaomi extends Smartphone {
 
     @Override
     public void downloadApp(String ... app) {
-        apps = new StringBuilder();
+        StringBuilder apps = new StringBuilder();
         for (String appN : app) {
             apps.append(appN).append(" ");
         }
+        setApps(apps);
         System.out.println(apps.toString() + " is downloaded to " + model);
     }
 
@@ -78,23 +71,15 @@ public class Xiaomi extends Smartphone {
         this.price = price;
     }
 
-    public String getApps() {
-        return apps.toString();
-    }
-
-    public void setApps(StringBuilder apps) {
-        this.apps = apps;
-    }
-
     @Override
     public String toString() {
         return "Xiaomi{" +
                 "model='" + model + '\'' +
                 ", color='" + color + '\'' +
                 ", price=" + price + " rub" +
-                ", apps=" + apps +
-                ", power=" + super.getPower() +
-                ", isOn=" + super.isOn() +
+                ", apps=" + getApps() +
+                ", power=" + getPower() +
+                ", isOn=" + isOn() +
                 '}';
     }
 }

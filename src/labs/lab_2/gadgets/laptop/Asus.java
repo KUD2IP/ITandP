@@ -4,13 +4,11 @@ public class Asus extends Laptop {
     private String model;
     private int price;
 
-    public Asus(int power) {
-        super(power);
+    public Asus() {
     }
 
-    public Asus(String model, int price) {
-        this.model = model;
-        this.price = price;
+    public Asus(int power) {
+        super(power);
     }
 
     public Asus(int power, String model, int price) {
@@ -74,9 +72,9 @@ public class Asus extends Laptop {
         return "Apple{" +
                 "model='" + model + '\'' +
                 ", price=" + price + " rub" +
-                ", power=" + super.getPower() +
-                ", operatingSystem='" + super.getOperatingSystem() + '\'' +
-                ", on=" + super.isOn() +
+                ", power=" + getPower() +
+                ", operatingSystem='" + getOperatingSystem() + '\'' +
+                ", on=" + isOn() +
                 '}';
     }
 }

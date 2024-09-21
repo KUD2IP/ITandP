@@ -4,16 +4,12 @@ public class Apple extends Smartphone {
     private String model;
     private String color;
     private int price;
-    private StringBuilder apps;
+
+    public Apple() {
+    }
 
     public Apple(int power) {
         super(power);
-    }
-
-    public Apple(String model, String color, int price) {
-        this.model = model;
-        this.color = color;
-        this.price = price;
     }
 
     public Apple(int power, String model, String color, int price) {
@@ -22,8 +18,6 @@ public class Apple extends Smartphone {
         this.color = color;
         this.price = price;
     }
-
-
 
     @Override
     public void charge() {
@@ -48,10 +42,11 @@ public class Apple extends Smartphone {
 
     @Override
     public void downloadApp(String ... app) {
-        apps = new StringBuilder();
+        StringBuilder apps = new StringBuilder();
         for (String appN : app) {
             apps.append(appN).append(" ");
         }
+        setApps(apps);
         System.out.println(apps.toString() + " is downloaded to " + model);
     }
 
@@ -79,21 +74,13 @@ public class Apple extends Smartphone {
         this.price = price;
     }
 
-    public StringBuilder getApps() {
-        return apps;
-    }
-
-    public void setApps(StringBuilder apps) {
-        this.apps = apps;
-    }
-
     @Override
     public String toString() {
         return "Apple{" +
                 "model='" + model + '\'' +
                 ", color='" + color + '\'' +
                 ", price=" + price + " rub" +
-                ", apps=" + apps +
+                ", apps=" + getApps() +
                 ", power=" + super.getPower() +
                 ", on=" + super.isOn() +
                 '}';
