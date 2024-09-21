@@ -2,8 +2,8 @@ package labs.lab_2;
 
 import labs.lab_2.gadgets.laptop.Asus;
 import labs.lab_2.gadgets.smartphone.Apple;
-import labs.lab_2.gadgets.smartphone.Xiaomi;
 import labs.lab_2.gadgets.watch.Samsung;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -13,14 +13,14 @@ public class Main {
         apple.on();
         apple.downloadApp("Vk", "Tg", "Instagram");
         apple.off();
-        System.out.println(apple.toString());
+        System.out.println(apple.toString() + "\n");
 
         labs.lab_2.gadgets.laptop.Apple appleLaptop = new labs.lab_2.gadgets.laptop.Apple(95, "MacBook Pro", 200_000);
         appleLaptop.charge();
         appleLaptop.on();
         appleLaptop.downloadOperatingSystem("MacOS");
         appleLaptop.off();
-        System.out.println(appleLaptop.toString());
+        System.out.println(appleLaptop.toString() + "\n");
 
         Asus asus = new Asus(89, "TUF F15", 75_000);
         asus.charge();
@@ -28,11 +28,14 @@ public class Main {
         asus.downloadOperatingSystem("Windows");
         asus.off();
         System.out.println(asus.toString());
+        Asus asus2 = new Asus(85);
+        System.out.println("бъектов типа Asus было создано" + Asus.getCounter() + "\n");
 
         Samsung samsung = new Samsung(89, 50_000, "Galaxy watch 5");
         samsung.charge();
         samsung.on();
         samsung.off();
         System.out.println(samsung.toString());
+
     }
 }

@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="lab 2">
+    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="lab 2 edited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/labs/lab_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/Gadgets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/Gadgets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Asus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Asus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Xiaomi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/smartphone/Xiaomi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/watch/SmartWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/watch/SmartWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,27 +53,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Primes.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/akkau/IdeaProjects/ITandP&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.Primes.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/akkau/IdeaProjects/ITandP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.lab_2.Main" />
@@ -147,7 +141,8 @@
       <workItem from="1726778150169" duration="190000" />
       <workItem from="1726840790225" duration="2019000" />
       <workItem from="1726866464672" duration="2000" />
-      <workItem from="1726924226736" duration="1519000" />
+      <workItem from="1726924226736" duration="1659000" />
+      <workItem from="1726943910687" duration="6237000" />
     </task>
     <task id="LOCAL-00001" summary="lab 1 and 10 tasks">
       <option name="closed" value="true" />
@@ -165,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726659279928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab 2 edited">
+      <option name="closed" value="true" />
+      <created>1726925855721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726925855721</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +177,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab 1 and 10 tasks" />
     <MESSAGE value="lab 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 2" />
+    <MESSAGE value="lab 2 edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 2 edited" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

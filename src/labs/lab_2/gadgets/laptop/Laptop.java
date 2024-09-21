@@ -3,13 +3,18 @@ package labs.lab_2.gadgets.laptop;
 import labs.lab_2.gadgets.Gadgets;
 
 public class Laptop extends Gadgets {
-    private String operatingSystem = null;
+    private String operatingSystem;
+    private String keyboardLanguage;
 
     public Laptop() {
+        operatingSystem = null;
+        keyboardLanguage = null;
     }
 
     public Laptop(int power) {
         super(power);
+        operatingSystem = null;
+        keyboardLanguage = null;
     }
 
     @Override
@@ -50,18 +55,27 @@ public class Laptop extends Gadgets {
     }
 
     public void keyboard(String language) {
+        keyboardLanguage = language;
         System.out.println("The language of the keyboard is " + language + "!");
     }
 
     public void keyboard(String language1, String language2) {
+        keyboardLanguage = language1 + " and " + language2;
         System.out.println("The language of the keyboard is " + language1 + " and " + language2 + "!");
     }
 
     public String getOperatingSystem() {
         return operatingSystem;
     }
-
     public void setOperatingSystem(String operatingSystem) {
         this.operatingSystem = operatingSystem;
+    }
+
+    public String getKeyboardLanguage() {
+        return keyboardLanguage;
+    }
+
+    public void setKeyboardLanguage(String keyboardLanguage) {
+        this.keyboardLanguage = keyboardLanguage;
     }
 }

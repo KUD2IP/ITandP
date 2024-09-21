@@ -3,18 +3,22 @@ package labs.lab_2.gadgets.laptop;
 public class Asus extends Laptop {
     private String model;
     private int price;
+    private static int counter = 0;
 
     public Asus() {
+        counter++;
     }
 
     public Asus(int power) {
         super(power);
+        counter++;
     }
 
     public Asus(int power, String model, int price) {
         super(power);
         this.model = model;
         this.price = price;
+        counter++;
     }
 
     @Override
@@ -67,6 +71,9 @@ public class Asus extends Laptop {
         this.price = price;
     }
 
+    public static int getCounter() {
+        return counter;
+    }
     @Override
     public String toString() {
         return "Apple{" +
