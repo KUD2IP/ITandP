@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="lab 2 edited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Asus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Asus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_2/gadgets/laptop/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/task_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/task_2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,7 @@
     "Application.Main.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.Primes.executor": "Run",
+    "Application.tasks.task_2.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
@@ -74,7 +73,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.lab_2.Main" />
       <module name="ITandP" />
@@ -142,7 +141,12 @@
       <workItem from="1726840790225" duration="2019000" />
       <workItem from="1726866464672" duration="2000" />
       <workItem from="1726924226736" duration="1659000" />
-      <workItem from="1726943910687" duration="6237000" />
+      <workItem from="1726943910687" duration="6627000" />
+      <workItem from="1727089052776" duration="169000" />
+      <workItem from="1727089431113" duration="17000" />
+      <workItem from="1727091193432" duration="1373000" />
+      <workItem from="1727092624323" duration="30000" />
+      <workItem from="1727286664502" duration="6607000" />
     </task>
     <task id="LOCAL-00001" summary="lab 1 and 10 tasks">
       <option name="closed" value="true" />
@@ -168,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726925855721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lab 2 edited">
+      <option name="closed" value="true" />
+      <created>1726950205048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726950205048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
