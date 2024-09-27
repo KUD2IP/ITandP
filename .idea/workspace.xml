@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="tasks 2 (1-7, 9)">
+    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="tasks 2 (8, 10)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/task_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/task_2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,7 @@
       <workItem from="1727092624323" duration="30000" />
       <workItem from="1727286664502" duration="7401000" />
       <workItem from="1727366100842" duration="618000" />
-      <workItem from="1727451773009" duration="3426000" />
+      <workItem from="1727451773009" duration="4327000" />
     </task>
     <task id="LOCAL-00001" summary="lab 1 and 10 tasks">
       <option name="closed" value="true" />
@@ -190,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727295658803</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tasks 2 (8, 10)">
+      <option name="closed" value="true" />
+      <created>1727455513341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727455513341</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,18 +208,10 @@
     <MESSAGE value="lab 2" />
     <MESSAGE value="lab 2 edited" />
     <MESSAGE value="tasks 2 (1-7, 9)" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks 2 (1-7, 9)" />
+    <MESSAGE value="tasks 2 (8, 10)" />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks 2 (8, 10)" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tasks/task_2/Main.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arr1.length" language="JAVA" />

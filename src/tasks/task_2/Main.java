@@ -122,14 +122,13 @@ public class Main {
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
 
-        Set<String> set = new HashSet<>(List.of(str1.split("")));
-        for (String c : str2.split("")) {
-            set.remove(String.valueOf(c));
-        }
-
         StringBuilder sb = new StringBuilder();
 
-        for (String c : set) {
+        List<String> list = new ArrayList<>(List.of(str1.split("")));
+        for (String c : str2.split("")) {
+            list.remove(String.valueOf(c));
+        }
+        for (String c : list) {
             sb.append(c);
         }
         return sb.toString();
