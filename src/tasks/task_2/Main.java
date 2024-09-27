@@ -91,7 +91,8 @@ public class Main {
         System.out.println("Hello, I’m under the water, please help me, ‘e’ -> " + localReverse("Hello, I’m under the water, please help me, ‘e’ ", 'e'));
 
         System.out.println("Доп тесты: ");
-        System.out.println();
+        System.out.println("winner winner chicken dinner, 'n' -> " + localReverse("winner winner chicken dinner", 'n'));
+        System.out.println("I`m learning java, 'a' -> " + localReverse("I`m learning java", 'a'));
 
         System.out.println("\ntask 9: ");
         System.out.println("(8, 1, 8) -> " + equal(8, 1, 8));
@@ -107,12 +108,13 @@ public class Main {
         }
 
         System.out.println("\ntask 10: ");
-        System.out.println("LISTEN, silent -> " + isAnagram("listen", "silent"));
-        System.out.println("Eleven plus two?, Twelve plus one -> " + isAnagram("Eleven plus two?", "Twelve plus one!"));
+        System.out.println("LISTEN, silent -> " + isAnagram("LISTEN", "silent"));
+        System.out.println("Eleven plus two?, Twelve plus one! -> " + isAnagram("Eleven plus two?", "Twelve plus one!"));
         System.out.println("hello, world -> " + isAnagram("hello", "world"));
 
         System.out.println("Доп тесты: ");
-        System.out.println();
+        System.out.println("Car, rac -> " + isAnagram("Car", "rac"));
+        System.out.println("anagram, nanagram -> " + isAnagram("anagram", "nanagram"));
     }
 
 
@@ -221,7 +223,16 @@ public class Main {
     }
 
     public static String localReverse(String str, char c) {
-        return null;
+        String[] arr = str.split(String.valueOf(c));
+        int j = str.charAt(0) == c ? 0 : 1;
+
+        for (int i = j; i < arr.length; i++) {
+            StringBuilder sb = new StringBuilder();
+            sb.append(arr[i]).reverse();
+            str = str.replace(arr[i], sb.toString());
+        }
+
+        return str;
     }
 
     public static int equal(int a, int b, int c) {
@@ -235,7 +246,22 @@ public class Main {
     }
 
     public static boolean isAnagram(String str1, String str2) {
-        return false;
+
+        if (str1.length() != str2.length()) {
+            return false;
+        }
+        String[] arr1s = str1.toLowerCase().split("[!,?.]");
+        String[] arr2s = str2.toLowerCase().split("[!,?.]");
+        char[] arr1 = arr1s[0].toCharArray();
+        char[] arr2 = arr2s[0].toCharArray();
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i] != arr2[i]) {
+                return false;
+            }
+        }
+        return true;
     }
 }
 
