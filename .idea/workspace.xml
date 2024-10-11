@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="tasks 2 edit 1">
-      <change afterPath="$PROJECT_DIR$/src/labs/lab_3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab_3/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab_3/hash_table/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/lab_3/hash_table/HashTable.java" afterDir="false" />
+    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="labs 3">
+      <change afterPath="$PROJECT_DIR$/src/tasks/task_3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,30 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Primes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.labs.lab_3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tasks.task_2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/akkau/IdeaProjects/book&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.Primes.executor": "Run",
+    "Application.labs.lab_3.Main.executor": "Run",
+    "Application.tasks.task_2.Main.executor": "Run",
+    "Application.tasks.task_3.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/akkau/IdeaProjects/book",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.labs.lab_3.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.tasks.task_3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.lab_2.Main" />
       <module name="ITandP" />
@@ -117,9 +115,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tasks.task_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.task_2.Main" />
+      <module name="ITandP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.task_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tasks.task_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.task_3.Main" />
+      <module name="ITandP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.task_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tasks.task_3.Main" />
         <item itemvalue="Application.labs.lab_3.Main" />
+        <item itemvalue="Application.tasks.task_2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Primes" />
       </list>
@@ -173,7 +199,10 @@
       <workItem from="1728041916275" duration="2954000" />
       <workItem from="1728120086431" duration="16000" />
       <workItem from="1728228259311" duration="765000" />
-      <workItem from="1728234771995" duration="4733000" />
+      <workItem from="1728234771995" duration="5089000" />
+      <workItem from="1728303417088" duration="802000" />
+      <workItem from="1728483883942" duration="413000" />
+      <workItem from="1728664781271" duration="9168000" />
     </task>
     <task id="LOCAL-00001" summary="lab 1 and 10 tasks">
       <option name="closed" value="true" />
@@ -231,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727458625291</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="labs 3">
+      <option name="closed" value="true" />
+      <created>1728240171170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728240171170</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +281,8 @@
     <MESSAGE value="tasks 2 (1-7, 9)" />
     <MESSAGE value="tasks 2 (8, 10)" />
     <MESSAGE value="tasks 2 edit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks 2 edit 1" />
+    <MESSAGE value="labs 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="labs 3" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
