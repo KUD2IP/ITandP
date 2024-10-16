@@ -81,7 +81,6 @@ public class HashTable<K, V>{
     private void resize() {
         LinkedList<Entry<K, V>>[] oldTable = table;
         table = new LinkedList[oldTable.length * 2];
-        size = 0;
 
         for (LinkedList<Entry<K, V>> bucket : oldTable) {
             if (bucket != null) {
