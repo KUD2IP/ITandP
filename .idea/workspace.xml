@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="tasks 3">
+    <list default="true" id="625257bd-bb4b-4876-b9dd-2478eb0c629a" name="Changes" comment="edit lab 3">
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_4/CustomAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_4/filesTxt/FirstTxtFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/lab_4/filesTxt/SecondTxtFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/lab_3/hash_table/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/lab_3/hash_table/HashTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,31 +54,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Primes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.labs.lab_3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tasks.task_2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tasks.task_3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/akkau/IdeaProjects/book&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.Primes.executor": "Run",
+    "Application.labs.lab_3.Main.executor": "Run",
+    "Application.labs.lab_4.Main.executor": "Run",
+    "Application.tasks.task_2.Main.executor": "Run",
+    "Application.tasks.task_3.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/akkau/IdeaProjects/book",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.tasks.task_3.Main">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akkau\IdeaProjects\ITandP\src\labs\lab_4\filesTxt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.labs.lab_4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.lab_2.Main" />
       <module name="ITandP" />
@@ -89,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Primes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.lab_1.Primes" />
+    <configuration name="labs.lab_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.lab_3.Main" />
       <module name="ITandP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.lab_1.*" />
+          <option name="PATTERN" value="labs.lab_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="labs.lab_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.lab_3.Main" />
+    <configuration name="labs.lab_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.lab_4.Main" />
       <module name="ITandP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.lab_3.*" />
+          <option name="PATTERN" value="labs.lab_4.Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.labs.lab_4.Main" />
         <item itemvalue="Application.tasks.task_3.Main" />
         <item itemvalue="Application.labs.lab_3.Main" />
         <item itemvalue="Application.tasks.task_2.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Primes" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +214,8 @@
       <workItem from="1728664781271" duration="9557000" />
       <workItem from="1728680554385" duration="229000" />
       <workItem from="1728809757048" duration="38000" />
-      <workItem from="1729095507332" duration="3052000" />
+      <workItem from="1729095507332" duration="4086000" />
+      <workItem from="1729338395577" duration="5052000" />
     </task>
     <task id="LOCAL-00001" summary="lab 1 and 10 tasks">
       <option name="closed" value="true" />
@@ -279,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728674248189</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="edit lab 3">
+      <option name="closed" value="true" />
+      <created>1729099995302</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729099995303</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +312,8 @@
     <MESSAGE value="tasks 2 edit 1" />
     <MESSAGE value="labs 3" />
     <MESSAGE value="tasks 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks 3" />
+    <MESSAGE value="edit lab 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit lab 3" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
