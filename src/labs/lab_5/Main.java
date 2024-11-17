@@ -20,7 +20,7 @@ public class Main {
         findCapitalLetters(str);
 
         //#4
-        String ip = "192.168.1.1";
+        String ip = "192..168.1.1";
         IpValidator(ip);
 
         //#5
